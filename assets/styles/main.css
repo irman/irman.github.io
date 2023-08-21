@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+html {
+  @apply font-body antialiased;
+}
+
+@layer components{
+  .badge{
+    @apply inline-flex items-center justify-center px-2 py-1 mr-1 text-xs font-bold leading-none text-white rounded-full;
+  }
+  .button{
+    @apply inline-flex items-center justify-center px-4 py-3 mr-1 font-bold leading-none text-white rounded;
+  }
+}
+
+@tailwind utilities;
