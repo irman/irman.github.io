@@ -19,25 +19,25 @@
             name="viewport"
     />
 
-    <title>Irman Ahmad | Web Developer</title>
+    <title>Irman Ahmad | Senior Software Engineer</title>
 
-    <meta property="og:title" content="Irman Ahmad | Web Developer"/>
+    <meta property="og:title" content="Irman Ahmad | Senior Software Engineer"/>
 
     <meta property="og:locale" content="en_US"/>
 
     <link
             rel="canonical"
-            href="//"
+            href="https://www.irmanahmad.com/"
     />
 
     <meta
             property="og:url"
-            content="//"
+            content="https://www.irmanahmad.com/"
     />
 
     <meta
             name="description"
-            content="12+ years of experience developing web applications with various technologies."
+            content="Senior software engineer in Malaysia. Full stack and backend development, with 13+ years of experience and 3+ years working fully remotely for a US company."
     />
 
     <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
@@ -46,11 +46,11 @@
 
     <meta property="og:site_name" content="Irman Ahmad"/>
 
-    <meta property="og:image" content="//assets/img/social.jpg"/>
+    <meta property="og:image" content="https://www.irmanahmad.com/assets/img/social.jpg"/>
 
     <meta name="twitter:card" content="summary_large_image"/>
 
-    <meta name="twitter:site" content="@tailwindmade"/>
+    <meta property="og:description" content="Senior software engineer in Malaysia. Full stack and backend development, with 13+ years of experience and 3+ years working fully remotely for a US company."/>
 
     <link
             crossorigin="crossorigin"
@@ -136,38 +136,12 @@
                             ></span>
                         </li>
 
-                        <li class="group pl-6 hidden">
-          
-          <span
-                  @click="triggerNavItem('#services')"
-                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Services</span
-          >
-
-                            <span
-                                    class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                            ></span>
-                        </li>
-
                         <li class="group pl-6">
           
           <span
                   @click="triggerNavItem('#portfolio')"
                   class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
           >Portfolio</span
-          >
-
-                            <span
-                                    class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                            ></span>
-                        </li>
-
-                        <li class="group pl-6 hidden">
-          
-          <span
-                  @click="triggerNavItem('#clients')"
-                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Clients</span
           >
 
                             <span
@@ -250,32 +224,12 @@
 
                     </li>
 
-                    <li class="py-2 hidden">
-        
-        <span
-                @click="triggerMobileNavItem('#services')"
-                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-        >Services</span
-        >
-
-                    </li>
-
                     <li class="py-2">
         
         <span
                 @click="triggerMobileNavItem('#portfolio')"
                 class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
         >Portfolio</span
-        >
-
-                    </li>
-
-                    <li class="py-2 hidden">
-        
-        <span
-                @click="triggerMobileNavItem('#clients')"
-                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-        >Clients</span
         >
 
                     </li>
@@ -332,15 +286,27 @@
                             <img
                                     src="/assets/img/profile.jpeg"
                                     class="h-48 rounded-full sm:h-56"
-                                    alt="author"
+                                    alt="Irman Ahmad"
                             />
                         </div>
-                        <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+                        <div class="max-w-2xl pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                             <h1
-                                    class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl"
+                                    class="text-center font-header text-4xl text-white lg:text-left sm:text-5xl md:text-6xl"
                             >Irman Ahmad</h1>
                             <p class="text-center font-header text-sm text-white sm:text-base md:text-lg lg:text-left lg:pl-1">
-                                Software Engineer</p>
+                                Senior Software Engineer · Full Stack &amp; Backend</p>
+                            <p class="pt-4 text-center font-body leading-relaxed text-white lg:text-left">
+                                I build web applications, backend services and payment systems. Based in Kuala Lumpur,
+                                with over 13 years of engineering experience, including three years working fully remotely
+                                for Curotec, a US company.
+                            </p>
+                            <p class="pt-4 text-center font-body font-semibold text-white lg:text-left">
+                                Open to fully remote senior engineering roles from Malaysia.
+                            </p>
+                            <div class="pt-6 text-center lg:text-left">
+                                <a href="#portfolio" class="button bg-white !text-primary">View my work</a>
+                                <a href="#contact" class="button bg-primary">Get in touch</a>
+                            </div>
                             <div
                                     class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start"
                             >
@@ -355,17 +321,17 @@
                                 <div
                                         class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0"
                                 >
-                                    <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank">
+                                    <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank" aria-label="LinkedIn">
                                         <i
                                                 class="bx bxl-linkedin text-2xl text-white hover:text-yellow"
                                         ></i>
                                     </a>
-                                    <a href="https://www.github.com/irman" target="_blank" class="pl-4">
+                                    <a href="https://www.github.com/irman" target="_blank" aria-label="GitHub" class="pl-4">
                                         <i
                                                 class="bx bxl-github text-2xl text-white hover:text-yellow"
                                         ></i>
                                     </a>
-                                    <a href="https://www.gitlab.com/_irman" target="_blank" class="pl-4">
+                                    <a href="https://www.gitlab.com/_irman" target="_blank" aria-label="GitLab" class="pl-4">
                                         <i
                                                 class="bx bxl-gitlab text-2xl text-white hover:text-yellow"
                                         ></i>
@@ -383,15 +349,26 @@
                         <h2
                                 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
                         >
-                            Who am I?
+                            About me
                         </h2>
                         <h4
                                 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
                         >
-                            I'm Irman Ahmad, a Digital Architect
+                            Full stack development, with a focus on backend systems
                         </h4>
                         <p class="pt-6 font-body leading-relaxed text-grey-20">
-                            Senior Fullstack Engineer with 13+ years of experience building scalable web systems using modern technologies like Vue.js, React, Node.js, and TypeScript. Expert in designing robust architectures, leading cross-functional teams, and delivering production-grade solutions in cloud-native environments. Passionate about clean code, developer experience, and solving real-world problems through software.
+                            At Qashier, I lead backend and full-stack development work in a team spread across four countries.
+                            I work on merchant-facing applications and backend integrations, and led a migration from
+                            Google Cloud Run to Kubernetes to reduce cloud costs and give us more control over deployments.
+                        </p>
+                        <p class="pt-4 font-body leading-relaxed text-grey-20">
+                            Before that, I spent over three years working fully remotely from Malaysia for Curotec.
+                            I built client applications with Laravel and Vue, worked directly with clients on requirements,
+                            and helped resolve critical production issues.
+                        </p>
+                        <p class="pt-4 font-body leading-relaxed text-grey-20">
+                            I've also led five to six developers across more than ten projects. I like staying hands-on
+                            while taking responsibility for the technical work, from requirements through production support.
                         </p>
                         <div
                                 class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start"
@@ -407,17 +384,17 @@
                             <div
                                     class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0"
                             >
-                                <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank">
+                                <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank" aria-label="LinkedIn">
                                     <i
                                             class="bx bxl-linkedin text-2xl text-primary hover:text-yellow"
                                     ></i>
                                 </a>
-                                <a href="https://www.github.com/irman" target="_blank" class="pl-4">
+                                <a href="https://www.github.com/irman" target="_blank" aria-label="GitHub" class="pl-4">
                                     <i
                                             class="bx bxl-github text-2xl text-primary hover:text-yellow"
                                     ></i>
                                 </a>
-                                <a href="https://www.gitlab.com/_irman" target="_blank" class="pl-4">
+                                <a href="https://www.gitlab.com/_irman" target="_blank" aria-label="GitLab" class="pl-4">
                                     <i
                                             class="bx bxl-gitlab text-2xl text-primary hover:text-yellow"
                                     ></i>
@@ -426,238 +403,25 @@
                         </div>
                     </div>
                     <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-1/2 lg:pl-12 lg:pt-0">
-                        <div>
-                            <div class="flex items-end justify-between">
-                                <h4 class="font-body font-semibold uppercase text-black text-sm">
-                                    Vue.js, React, TypeScript
-                                </h4>
-                                <h3 class="font-body text-xl font-bold text-primary">95%</h3>
+                        <h3 class="font-header text-2xl font-semibold text-primary">Tools I work with</h3>
+                        <dl>
+                            <div class="pt-6">
+                                <dt class="font-body font-semibold text-black">Backend</dt>
+                                <dd class="pt-2 font-body leading-relaxed text-grey-20">TypeScript, Node.js, PHP, Laravel</dd>
                             </div>
-                            <div class="mt-2 h-3 w-full rounded-full bg-lila">
-                                <div class="h-3 rounded-full bg-primary" style="width: 95%"></div>
+                            <div class="pt-6">
+                                <dt class="font-body font-semibold text-black">Frontend</dt>
+                                <dd class="pt-2 font-body leading-relaxed text-grey-20">React, Vue, JavaScript</dd>
                             </div>
-                        </div>
-                        <div class="pt-4">
-                            <div class="flex items-end justify-between">
-                                <h4 class="font-body font-semibold uppercase text-black text-sm">Node.js, JavaScript</h4>
-                                <h3 class="font-body text-xl font-bold text-primary">90%</h3>
+                            <div class="pt-6">
+                                <dt class="font-body font-semibold text-black">Databases</dt>
+                                <dd class="pt-2 font-body leading-relaxed text-grey-20">PostgreSQL, MySQL, Firestore</dd>
                             </div>
-                            <div class="mt-2 h-3 w-full rounded-full bg-lila">
-                                <div class="h-3 rounded-full bg-primary" style="width: 90%"></div>
+                            <div class="pt-6">
+                                <dt class="font-body font-semibold text-black">Cloud and deployment</dt>
+                                <dd class="pt-2 font-body leading-relaxed text-grey-20">Google Cloud, AWS, Docker, Kubernetes</dd>
                             </div>
-                        </div>
-                        <div class="pt-4">
-                            <div class="flex items-end justify-between">
-                                <h4 class="font-body font-semibold uppercase text-black text-sm">
-                                    Databases (PostgreSQL, MySQL, Firestore)
-                                </h4>
-                                <h3 class="font-body text-xl font-bold text-primary">85%</h3>
-                            </div>
-                            <div class="mt-2 h-3 w-full rounded-full bg-lila">
-                                <div class="h-3 rounded-full bg-primary" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <div class="flex items-end justify-between">
-                                <h4 class="font-body font-semibold uppercase text-black text-sm">DevOps (Docker, GCP, AWS, Kubernetes)</h4>
-                                <h3 class="font-body text-xl font-bold text-primary">80%</h3>
-                            </div>
-                            <div class="mt-2 h-3 w-full rounded-full bg-lila">
-                                <div class="h-3 rounded-full bg-primary" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <div class="flex items-end justify-between">
-                                <h4 class="font-body font-semibold uppercase text-black text-sm">PHP & Laravel</h4>
-                                <h3 class="font-body text-xl font-bold text-primary">60%</h3>
-                            </div>
-                            <div class="mt-2 h-3 w-full rounded-full bg-lila">
-                                <div class="h-3 rounded-full bg-primary" style="width: 60%"></div>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <div class="flex items-end justify-between">
-                                <h4 class="font-body font-semibold uppercase text-black text-sm">Coffee Addiction</h4>
-                                <h3 class="font-body text-xl font-bold text-primary">120%</h3>
-                            </div>
-                            <div class="mt-2 h-3 w-full rounded-full bg-lila">
-                                <div class="h-3 rounded-full bg-primary" style="width: 110%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container py-16 md:py-20 hidden" id="services">
-                <h2
-                        class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-                >
-                    Here's what I'm good at
-                </h2>
-                <h3
-                        class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
-                >
-                    These are the services Ioffer
-                </h3>
-
-                <div
-                        class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
-                >
-                    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                        <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                            <div class="hidden group-hover:block">
-                                <img
-                                        src="/assets/img/icon-development-white.svg"
-                                        alt="development icon"
-                                />
-                            </div>
-                            <div class="block group-hover:hidden">
-                                <img
-                                        src="/assets/img/icon-development-black.svg"
-                                        alt="development icon"
-                                />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <h3
-                                    class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-                            >
-                                WEB DEVELOPMENT
-                            </h3>
-                            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                        <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                            <div class="hidden group-hover:block">
-                                <img
-                                        src="/assets/img/icon-content-white.svg"
-                                        alt="content marketing icon"
-                                />
-                            </div>
-                            <div class="block group-hover:hidden">
-                                <img
-                                        src="/assets/img/icon-content-black.svg"
-                                        alt="content marketing icon"
-                                />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <h3
-                                    class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-                            >
-                                Technical Writing
-                            </h3>
-                            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                        <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                            <div class="hidden group-hover:block">
-                                <img
-                                        src="/assets/img/icon-mobile-white.svg"
-                                        alt="Mobile Application icon"
-                                />
-                            </div>
-                            <div class="block group-hover:hidden">
-                                <img
-                                        src="/assets/img/icon-mobile-black.svg"
-                                        alt="Mobile Application icon"
-                                />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <h3
-                                    class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-                            >
-                                Mobile Development
-                            </h3>
-                            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                        <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                            <div class="hidden group-hover:block">
-                                <img
-                                        src="/assets/img/icon-email-white.svg"
-                                        alt="Email Marketing icon"
-                                />
-                            </div>
-                            <div class="block group-hover:hidden">
-                                <img
-                                        src="/assets/img/icon-email-black.svg"
-                                        alt="Email Marketing icon"
-                                />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <h3
-                                    class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-                            >
-                                Email Development
-                            </h3>
-                            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                        <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                            <div class="hidden group-hover:block">
-                                <img
-                                        src="/assets/img/icon-design-white.svg"
-                                        alt="Theme Design icon"
-                                />
-                            </div>
-                            <div class="block group-hover:hidden">
-                                <img
-                                        src="/assets/img/icon-design-black.svg"
-                                        alt="Theme Design icon"
-                                />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <h3
-                                    class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-                            >
-                                Graphic Design
-                            </h3>
-                            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                        <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                            <div class="hidden group-hover:block">
-                                <img
-                                        src="/assets/img/icon-graphics-white.svg"
-                                        alt="Graphic Design icon"
-                                />
-                            </div>
-                            <div class="block group-hover:hidden">
-                                <img
-                                        src="/assets/img/icon-graphics-black.svg"
-                                        alt="Graphic Design icon"
-                                />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <h3
-                                    class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-                            >
-                                Web Design
-                            </h3>
-                            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
+                        </dl>
                     </div>
                 </div>
             </div>
@@ -666,13 +430,36 @@
                 <h2
                         class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
                 >
-                    Check out my Portfolio
+                    Selected work
                 </h2>
                 <h3
                         class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
                 >
-                    Some of my highlights
+                    What I built and the work I owned
                 </h3>
+                <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-2">
+                    <article class="rounded bg-grey-50 p-6">
+                        <p class="font-body font-semibold text-primary">Qashier</p>
+                        <h3 class="pt-2 font-header text-2xl font-semibold text-black">Cloud Run to Kubernetes</h3>
+                        <p class="pt-4 font-body leading-relaxed text-grey-20">
+                            I led the migration of key services from Google Cloud Run to Kubernetes. The move reduced
+                            monthly cloud costs and gave the team more control over deployments. This sits alongside
+                            my work on merchant-facing applications and backend integrations.
+                        </p>
+                        <p class="pt-4 font-body text-sm text-primary">Google Cloud · Kubernetes · Backend services</p>
+                    </article>
+                    <article class="rounded bg-grey-50 p-6">
+                        <p class="font-body font-semibold text-primary">Curotec</p>
+                        <h3 class="pt-2 font-header text-2xl font-semibold text-black">Asset tracking for a client</h3>
+                        <p class="pt-4 font-body leading-relaxed text-grey-20">
+                            I built an asset-tracking system with Laravel, Vue/Nuxt.js and MySQL while working fully
+                            remotely from Malaysia. My role at Curotec also involved working directly with clients
+                            on requirements and critical production issues.
+                        </p>
+                        <p class="pt-4 font-body text-sm text-primary">Laravel · Vue/Nuxt.js · MySQL</p>
+                    </article>
+                </div>
+
 
                 <div
                         class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2"
@@ -685,7 +472,7 @@
                         <img
                                 src="/assets/img/portfolio-yelo.png"
                                 class="w-full shadow"
-                                alt="portfolio image"
+                                alt="Yelo.my application screenshot"
                         />
                     </a>
                     <div class="md:-mt-1 md:pl-8">
@@ -693,23 +480,16 @@
                         <span class="block font-body font-bold text-grey-40">October 2018 - June 2020</span>
                         <div class="pt-4">
         <span class="block font-body font-bold text-grey-10">
-          Car Clubs & Communities
+          Car clubs and vehicle management
         </span>
                         </div>
                         <div class="pt-4">
                             <div class="block font-body leading-loose text-grey-20 text-justify">
                                 <p>
-                                    YELO.my (as in hello!) is a community and vehicle management portal for car
-                                    enthusiasts (or any regular car owners). The aim is to be the single point of
-                                    contact on anything related to cars; Car clubs, Insurance & Road tax renewal, News,
-                                    Service centers and more.
+                                    Yelo.my was a community and vehicle-management portal for car owners, with car clubs, news, insurance and road-tax renewal information, and service-center listings.
                                 </p>
                                 <p class="mt-6">
-                                    I’m the sole developer of this project. I designed the database, built the backend
-                                    API, and also implemented the entire front-end interfaces. This project features a
-                                    discord/slack-like chat, VueJS SPA, PWA-enabled web app, social sign-in, auto RSS
-                                    fetching, and multi-tier role-based system. The live chat system uses Vuex and
-                                    websocket (with Pusher).
+                                    I was the sole developer. I designed the database and built the backend API and Vue frontend. The app supported real-time chat with Pusher, social sign-in, RSS feeds and tiered access permissions. I also made it available as a progressive web app.
                                 </p>
                                 <div class="my-8">
                                     <span class="badge bg-yelo-green">Laravel</span>
@@ -723,7 +503,7 @@
                                     <span class="badge bg-yelo-green">RSS</span>
                                     <span class="badge bg-yelo-green">Mailgun</span>
                                     <span class="badge bg-yelo-green">AWS</span>
-                                    <span class="badge bg-yeo-green">Docker</span>
+                                    <span class="badge bg-yelo-green">Docker</span>
                                 </div>
                             </div>
                         </div>
@@ -737,7 +517,7 @@
                         <img
                                 src="/assets/img/portfolio-infinity-money.png"
                                 class="w-full shadow"
-                                alt="portfolio image"
+                                alt="Infinity.Money application screenshot"
                         />
                     </a>
                     <div class="md:-mt-1 md:pl-8">
@@ -745,21 +525,16 @@
                         <span class="block font-body font-bold text-grey-40">January 2018 - December 2018</span>
                         <div class="pt-4">
         <span class="block font-body font-bold text-grey-10">
-          The Infinite Payment Solutions
+          Payments and merchant integrations
         </span>
                         </div>
                         <div class="pt-4">
                             <div class="block font-body leading-loose text-grey-20 text-justify">
                                 <p>
-                                    Infinity.Money aims to revolutionize the fintech industry by providing a simple
-                                    white-label payment solution for merchants and rewards buyers/payee at the same
-                                    time. It comes with built-in loyalty points, redemption & promo codes.
+                                    Infinity.Money was a white-label payment gateway with loyalty points, redemptions and promo codes.
                                 </p>
                                 <p class="mt-6">
-                                    I built 90% of this project. A multipart ecosystem payment gateway featuring
-                                    stripe-like seamless (popup) integration. Built with API-based Lumen, Laravel,
-                                    Angular, StencilJS (Web Component), PHP-based composer package, and private
-                                    Composer/NPM package repository.
+                                    As the main engineer, I built the payment platform and its merchant integration tools. These included APIs with Lumen and Laravel, an Angular frontend, a popup checkout built with StencilJS, and a PHP Composer package. I also set up private Composer and NPM package repositories.
                                 </p>
                                 <div class="my-8">
                                     <span class="badge bg-infinity-blue">Laravel</span>
@@ -769,7 +544,6 @@
                                     <span class="badge bg-infinity-blue">Composer</span>
                                     <span class="badge bg-infinity-blue">Mailgun</span>
                                     <span class="badge bg-infinity-blue">JWT</span>
-                                    <span class="badge bg-infinity-blue">Docker</span>
                                     <span class="badge bg-infinity-blue">Docker</span>
                                     <span class="badge bg-infinity-blue">GitLab Continuous Integration</span>
                                 </div>
@@ -785,28 +559,24 @@
                         <img
                                 src="/assets/img/portfolio-floordepot.png"
                                 class="w-full shadow"
-                                alt="portfolio image"
+                                alt="FloorDepot2U application screenshot"
                         />
                     </a>
                     <div class="md:-mt-1 md:pl-8">
                         <span class="block pt-2 font-header text-2xl font-bold uppercase text-floordepot-blue">FloorDepot2U</span>
-                        <span class="block font-body font-bold text-grey-40">December 2016 - Present</span>
+                        <span class="block font-body font-bold text-grey-40">Started December 2016</span>
                         <div class="pt-4">
         <span class="block font-body font-bold text-grey-10">
-          Hybrid Mobile Application
+          Mobile commerce application
         </span>
                         </div>
                         <div class="pt-4">
                             <div class="block font-body leading-loose text-grey-20 text-justify">
                                 <p>
-                                    A popular flooring solutions provider since 2001. This application is an e-commerce
-                                    application that features extensive product catalogs, shopping cart, and an
-                                    integrated payment gateway.
+                                    A mobile shopping app for FloorDepot, with a product catalog, shopping cart and payment gateway.
                                 </p>
                                 <p class="mt-6">
-                                    I developed 100% of this project including the API and mobile application. It was
-                                    built with Ionic Framework, a hybrid mobile app framework. The API was built on top
-                                    of a legacy e-commerce platform using Lumen. It also supports push notifications.
+                                    I built the API and mobile application. The Ionic app connected to a Lumen API on top of an existing e-commerce platform and supported push notifications.
                                 </p>
                                 <div class="my-8">
                                     <span class="badge bg-floordepot-blue">PHP</span>
@@ -844,30 +614,24 @@
                         <img
                                 src="/assets/img/portfolio-epay.png"
                                 class="w-full shadow"
-                                alt="portfolio image"
+                                alt="e-Pay application screenshot"
                         />
                     </a>
                     <div class="md:-mt-1 md:pl-8">
                         <span class="block pt-2 font-header text-2xl font-bold uppercase text-epay-purple">e-Pay</span>
-                        <span class="block font-body font-bold text-grey-40">April 2015 - Present</span>
+                        <span class="block font-body font-bold text-grey-40">Started April 2015</span>
                         <div class="pt-4">
         <span class="block font-body font-bold text-grey-10">
-          Malaysia’s No. 1 E-Payment Service Provider
+          Digital products and bill payments
         </span>
                         </div>
                         <div class="pt-4">
                             <div class="block font-body leading-loose text-grey-20 text-justify">
                                 <p>
-                                    e-pay provides hundreds of digital products throughout Malaysia. When this project
-                                    was in its inception, it was already the largest e-payment provider in Malaysia.
-                                    Every major convenient stores that sell top-up and provided bill payment services
-                                    uses e-pay.
+                                    e-Pay supplies digital products, mobile top-ups and bill-payment services to retailers across Malaysia.
                                 </p>
                                 <p class="mt-6">
-                                    I developed 80% of this project the web application and 100% of the mobile
-                                    application. Built with Laravel, featuring AWS Elastic Beanstalk load balancer.
-                                    Using SOAP API, SFTP, payment gateway integrations, and intensive scheduler. I also
-                                    helped define the environment and configured the deployments.
+                                    I built most of the web application and the full mobile app. The system used Laravel, SOAP APIs, SFTP and payment gateway integrations, with scheduled jobs for background work. I also helped configure deployments and load balancing on AWS Elastic Beanstalk.
                                 </p>
                                 <div class="my-8">
                                     <span class="badge bg-epay-purple">Laravel</span>
@@ -891,12 +655,12 @@
                     <h2
                             class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
                     >
-                        Other Projects
+                        More projects
                     </h2>
                     <h4
                             class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
                     >
-                        Just some other variety of works and techs.
+                        Earlier client work
                     </h4>
                     <div
                             class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10"
@@ -919,7 +683,7 @@
   >Mr. DIY</span
   >
                                 <span class="block pt-2 font-body text-grey-20">
-    Geo-IP country detection, using ip-api.com 3rd party integration to handle multi-country sub-sites. Walls.io integration.
+    Added country-based routing with ip-api.com for regional sites and integrated Walls.io.
   </span>
                             </div>
                         </a>
@@ -941,7 +705,7 @@
   >e-Club</span
   >
                                 <span class="block pt-2 font-body text-grey-20">
-    Steam wallet code integration, directly with Steam. Millions of encrypted wallet code database. Multi-currency, with specific reseller prices for each products.
+    Integrated directly with Steam for wallet codes. Worked with a database of millions of encrypted codes, multiple currencies and reseller-specific pricing.
   </span>
                             </div>
                         </a>
@@ -963,62 +727,10 @@
   >Sheffield Academy</span
   >
                                 <span class="block pt-2 font-body text-grey-20">
-    A full-fledged college management system, including course management, application form, enrollment, fees, offer letters, invoicing, agents, IP whitelist, and more.
+    Built a college management system for courses, applications, enrollment, fees, offer letters, invoicing and agents, with IP-based access restrictions.
   </span>
                             </div>
                         </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-grey-50 hidden" id="clients">
-                <div class="container py-16 md:py-20">
-                    <div class="mx-auto w-full sm:w-3/4 lg:w-full">
-                        <h2
-                                class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-                        >
-                            My latest clients
-                        </h2>
-                        <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
-        <span class="m-8 block">
-          <img
-                  src="/assets/img/logo-coca-cola.svg"
-                  alt="client logo"
-                  class="mx-auto block h-12 w-auto"
-          />
-        </span>
-                            <span class="m-8 block">
-          <img
-                  src="/assets/img/logo-apple.svg"
-                  alt="client logo"
-                  class="mx-auto block h-12 w-auto"
-          />
-        </span>
-
-                            <span class="m-8 block">
-          <img
-                  src="/assets/img/logo-netflix.svg"
-                  alt="client logo"
-                  class="mx-auto block h-12 w-auto"
-          />
-        </span>
-
-                            <span class="m-8 block">
-          <img
-                  src="/assets/img/logo-amazon.svg"
-                  alt="client logo"
-                  class="mx-auto block h-12 w-auto"
-          />
-        </span>
-
-                            <span class="m-8 block">
-          <img
-                  src="/assets/img/logo-stripe.svg"
-                  alt="client logo"
-                  class="mx-auto block h-12 w-auto"
-          />
-        </span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1027,12 +739,12 @@
                 <h2
                         class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
                 >
-                    My work experience
+                    Experience
                 </h2>
                 <h3
                         class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
                 >
-                    Here's what I did before
+                    Current and previous roles
                 </h3>
 
                 <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
@@ -1067,7 +779,7 @@
                                     <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-              >January 2024 - Now</span
+              >January 2024 - Present</span
               >
                                         <span
                                                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
@@ -1080,7 +792,7 @@
                                         </div>
                                         <div class="pt-2">
                 <span class="block font-body text-black"
-                >As a Senior Software Engineer at Qashier, I lead the design, development, and implementation of innovative software solutions that drive our business forward. My role involves collaborating with cross-functional teams across 4 countries to deliver high-quality, scalable, and maintainable code. I leverage a diverse tech stack, including Vue.js, Node.js, TypeScript, Firebase, Cloud Firestore, PostgreSQL, React.js, and Express.js, to build robust applications that meet our merchants’ needs.
+                >I lead backend and full-stack development for merchant-facing applications, working with colleagues across four countries. I build applications and integrations with TypeScript, Node.js, Vue, React, PostgreSQL and Firestore. I led the move of key services from Cloud Run to Kubernetes, help set coding standards and mentor junior developers.
                 </span
                 >
                                         </div>
@@ -1125,12 +837,12 @@
                                         >
                                         <div class="pt-2">
                 <span class="block font-body font-bold text-grey-10">
-                  Curotec | United States
+                  Curotec | US company · Remote from Malaysia
                 </span>
                                         </div>
                                         <div class="pt-2">
                 <span class="block font-body text-black"
-                >Implemented a new system to fetch and curate potential clients on LinkedIn, using Proxycurl API. Contributed to a new Laravel-based CMS for future projects. Implemented a comprehensive asset tracking system using Laravel, Vue (Nuxt.js) and MySQL stack.
+                >I worked fully remotely from Malaysia for over three years, building client applications and working directly with clients on requirements and critical production issues. I built an asset-tracking system with Laravel, Vue/Nuxt.js and MySQL, developed a prospecting tool using Proxycurl, and helped build a reusable Laravel CMS.
                 </span
                 >
                                         </div>
@@ -1166,7 +878,7 @@
                                     <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-              >December 2014 - December 2019</span
+              >December 2015 - December 2019</span
               >
                                         <span
                                                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
@@ -1179,11 +891,55 @@
                                         </div>
                                         <div class="pt-2">
                 <span class="block font-body text-black">
-                  Lead and monitored a team (5-6) of developers.
-Hosted team meetings/stand-ups every week and held classes & training for team members to teach new technologies or refine existing ones.
-Installed & maintained Mattermost as company’s official chat channel, replacing slack & hangout.
-Setup & maintained multiple servers including development & staging environments (on-site) including production servers (remotely through AWS & GCP).
-Developed and launched multiple projects for clients. Using web technologies such as Laravel, Bootstrap, jQuery, Debian, DigitalOcean, AWS, GitLab and GCP.
+                  Led five to six developers across more than ten projects. I led the move from legacy PHP to Laravel, introduced GitLab source control and shared package management, and ran technical training. I was the main engineer for infinity.money and Yelo.my, and maintained development, staging and production environments on AWS and Google Cloud.
+                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+                        <div class="md:w-2/5">
+                            <div class="flex justify-center md:justify-start">
+          <span class="shrink-0">
+            <img
+                    src="/assets/img/logo-uno.png"
+                    class="h-auto w-32"
+                    alt="uno.com.my"
+            />
+          </span>
+                                <div class="relative ml-3 hidden w-full md:block">
+            <span
+                    class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"
+            ></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-3/5">
+                            <div class="relative flex md:pl-18">
+          <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
+          ></span>
+
+                                <div class="mt-1 flex">
+                                    <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                                    <div class="md:-mt-1 md:pl-8">
+              <span class="block font-body font-bold text-grey-40"
+              >December 2014 - November 2015</span
+              >
+                                        <span
+                                                class="block pt-2 font-header text-xl font-bold uppercase text-primary"
+                                        >Web Developer</span
+                                        >
+                                        <div class="pt-2">
+                <span class="block font-body font-bold text-grey-10">
+                  Uno.com.my | Malaysia
+                </span>
+                                        </div>
+                                        <div class="pt-2">
+                <span class="block font-body text-black">
+                  Built and launched client web applications with Laravel, Bootstrap and jQuery. Worked with Debian, DigitalOcean, AWS, GitLab and Google Cloud for hosting and deployment.
                 </span>
                                         </div>
                                     </div>
@@ -1196,11 +952,11 @@ Developed and launched multiple projects for clients. Using web technologies suc
                 <h4
                         class="mt-10 pt-10 text-center font-header text-sm font-medium text-black sm:text-lg lg:text-xl text-opacity-50"
                 >
-                    - More experience and detailed descriptions on my
+                    Full experience on
                     <a href="https://www.linkedin.com/in/irman-ahmad" target="_blank"
                        class="border-2 border-grey-50 pl-1 rounded hover:border-grey-10">
-                        Linked<i class="bx bxl-linkedin text-xl"></i>
-                    </a> -
+                        LinkedIn<i class="bx bxl-linkedin text-xl" aria-hidden="true"></i>
+                    </a>
                 </h4>
             </div>
 
@@ -1231,7 +987,7 @@ Developed and launched multiple projects for clients. Using web technologies suc
                                     <h4
                                             class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
                                     >
-                                        Finished Projects
+                                        Projects delivered
                                     </h4>
                                 </div>
                             </div>
@@ -1253,7 +1009,7 @@ Developed and launched multiple projects for clients. Using web technologies suc
                                     <h4
                                             class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
                                     >
-                                        Years of remote experience
+                                        Years fully remote at Curotec
                                     </h4>
                                 </div>
                             </div>
@@ -1270,12 +1026,12 @@ Developed and launched multiple projects for clients. Using web technologies suc
                                 </div>
                                 <div class="pt-5 md:pl-5 md:pt-0">
                                     <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-
+                                        UTC+8
                                     </h1>
                                     <h4
                                             class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
                                     >
-                                        Flexible timezones
+                                        Based in Malaysia
                                     </h4>
                                 </div>
                             </div>
@@ -1292,7 +1048,7 @@ Developed and launched multiple projects for clients. Using web technologies suc
                                 </div>
                                 <div class="pt-5 md:pl-5 md:pt-0">
                                     <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                                        12+
+                                        13+
                                     </h1>
                                     <h4
                                             class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl"
@@ -1315,11 +1071,13 @@ Developed and launched multiple projects for clients. Using web technologies suc
                 <h4
                         class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
                 >
-                    Have Any Questions?
+                    Let's talk about your engineering team
                 </h4>
                 <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
                     <p class="font-body text-grey-10">
-                        Feel free to contact me.
+                        I'm looking for fully remote Senior Software Engineer, Full Stack Engineer or Backend Engineer
+                        roles from Malaysia. I'm open to employment through a local entity or EOR, or a long-term contract.
+                        Share the role, working hours and hiring arrangement by email or LinkedIn.
                     </p>
                 </div>
                 <div class="flex flex-col pt-16 lg:flex-row">
@@ -1333,7 +1091,7 @@ Developed and launched multiple projects for clients. Using web technologies suc
                             </p>
                         </div>
                         <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                            <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank">
+                            <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank" aria-label="LinkedIn">
                                 linkedin.com/in/irman-ahmad
                             </a>
                         </p>
@@ -1348,7 +1106,7 @@ Developed and launched multiple projects for clients. Using web technologies suc
                             </p>
                         </div>
                         <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                            irman@outlook.my
+                            <a href="mailto:irman@outlook.my">irman@outlook.my</a>
                         </p>
                     </div>
                     <div
@@ -1375,13 +1133,13 @@ Developed and launched multiple projects for clients. Using web technologies suc
                     © Copyright - Irman Ahmad
                 </p>
                 <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-                    <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank">
+                    <a href="https://www.linkedin.com/in/irman-ahmad/" target="_blank" aria-label="LinkedIn">
                         <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                     </a>
-                    <a href="https://www.github.com/irman" target="_blank" class="pl-4">
+                    <a href="https://www.github.com/irman" target="_blank" aria-label="GitHub" class="pl-4">
                         <i class="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                     </a>
-                    <a href="https://www.gitlab.com/_irman" target="_blank" class="pl-4">
+                    <a href="https://www.gitlab.com/_irman" target="_blank" aria-label="GitLab" class="pl-4">
                         <i class="bx bxl-gitlab text-2xl text-white hover:text-yellow"></i>
                     </a>
                 </div>
